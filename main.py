@@ -37,8 +37,8 @@ async def is_admins(chat_id: int):
 
 
 EMOJIOS = [ 
-      "🌿",
-      "⚡",
+      "",
+      "",
 ]
       
 START = f"""
@@ -59,7 +59,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.1)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝.✓")
     await asyncio.sleep(0.2)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭")
+    await accha.edit("")
        
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
@@ -332,6 +332,6 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"🎄 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗚𝗢 𝗔𝗡𝗗 𝗙𝗨𝗖𝗞🎄 ")      
+print(f"🎄 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝐀𝐁 🇭 🇦 🇷 🇸 🇭 🇺 𝐊𝐨 𝐏𝐚𝐫𝐭𝐲 𝐃𝐨🎄 ")      
 bot.run()
 #@ Mr.Daxx
